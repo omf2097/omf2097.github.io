@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>OpenOMF</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="OpenOMF - One Must Fall: 2097 Remake Project" />
+
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Audiowide|Open+Sans:400,700' rel='stylesheet' type='text/css' />
+
+    <!-- Opengraph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:url" content="http://http://omf2097.github.io/openomf/" />
+    <meta property="og:title" content="OpenOMF - One Must Fall: 2097 Remake Project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="OpenOMF" />
+
+    <!-- JQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <!-- fancybox -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Our own stuff -->
+    <link href="stylesheets/stylesheet.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="stylesheets/custom.css" rel="stylesheet" type="text/css" media="screen">
+
+    <script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-50211360-1', 'omf2097.github.io');
+    ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript">
+    $(function() {
+        $("a.screenshot").fancybox();
+    });
+    </script>
+</head>
+<body>
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+            <a id="forkme_banner" href="https://github.com/omf2097/openomf">View on GitHub</a>
+            <h1 id="project_title">OpenOMF</h1>
+            <h2 id="project_tagline">One Must Fall: 2097 Remake Project</h2>
+
+            <section id="downloads">
+                <a class="zip_download_link" href="https://github.com/omf2097/openomf/zipball/master">Download this project as a .zip file</a>
+                <a class="tar_download_link" href="https://github.com/omf2097/openomf/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+    <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+
+
+<p>
+    OpenOMF is a Open Source remake of "One Must Fall 2097" by Diversions Entertainment.
+    Since the original DOS game from 1994 still uses IPX networking and is a pain to set
+    up, the community needed a better solution to keep playing the game we love. Together
+    with networking, we try to make it easier to play One Must Fall in original glory on
+    multiple platforms (Linux, Mac OSX, Windows, BSD to name a few).
+</p>
+
+<h2><a name="project-goals" class="anchor" href="#project-goals"><span class="octicon octicon-link"></span></a>Project goals</h2>
+<ol>
+	<li>At first, as faithful a game binary to the original as possible. When this is reached, we can work on new features.</li>
+	<li>Better game controller support (new gamepads etc.)</li>
+	<li>Better networking support. The original game used IPX/SPX networking, which can nowadays be emulated on eg. dosbox. However, dosbox IPX/SPX routing is annoying to set up and the original game will run slowly on it.</li>
+    <li>More network game types. For example full Internet tournaments are being planned.</li>
+	<li>Support for new graphics and audio. The current version of OpenOMF already supports loading alternate music files. Support for alternate sprites is coming after the game is otherwise working okay.</li>
+	<li>Enhanced tournament mode!</li>
+	<li>Enjoying challenges in reverse-engineering and coding :)</li>
+</ol>
+
+<h2><a name="binaries" class="anchor" href="#links"><span class="octicon octicon-link"></span></a>Binaries</h2>
+<ul>
+    <li>
+        Our latest official releases are always available at <a href="https://github.com/omf2097/openomf/releases">https://github.com/omf2097/openomf/releases</a>
+    </li>
+    <li>
+        There are unofficial windows binaries available at 
+        <a href="http://katajakasa.fi/projects/openomf/packages/">http://katajakasa.fi/projects/openomf/packages/</a>.
+        These are updated every now and then, and may or may not work. Use with caution!
+    </li>
+</ul>
+
+<h2><a name="links" class="anchor" href="#links"><span class="octicon octicon-link"></span></a>Links</h2>
+<ul>
+    <li>There are some videos of openomf at <a href="http://www.youtube.com/user/openomf">http://www.youtube.com/user/openomf</a></li>
+    <li>We have a forum thread at <a href="http://omf.justinoakley.com/viewtopic.php?t=312299">http://omf.justinoakley.com/viewtopic.php?t=312299</a></li>
+    <li>Our official wiki &amp; documentation is at <a href="http://www.omf2097.com/wiki/doku.php?id=openomf:start">http://www.omf2097.com/wiki/doku.php?id=openomf:start</a></li>
+    <li>We can also be reached on IRC (freenode) at #omf.</li>
+    <li>We also have a <a href="https://plus.google.com/111665059222060782630" rel="publisher">Google+</a> account.</li>
+</ul>
+
+<h2><a name="contribute" class="anchor" href="#contribute"><span class="octicon octicon-link"></span></a>Contribute</h2>
+<p>
+    You may submit patches to this project by forking this repository and making a pull request. 
+    If you want to become a regular contributor, please contact us on 
+    <a href="http://webchat.freenode.net?channels=omf">#omf</a> on <a>irc.freenode.net</a>. 
+    We appreciate all kinds of contributions, whether it's big or small.
+</p>
+
+<h2><a name="contact" class="anchor" href="#contact"><span class="octicon octicon-link"></span></a>Contact</h2>
+<p>
+    Join us on <a href="http://webchat.freenode.net?channels=omf">#omf</a> 
+    on <a>irc.freenode.net</a> if you want to get in contact with us.
+</p>
+
+<h2>
+<a name="screenshots" class="anchor" href="#screenshots"><span class="octicon octicon-link"></span></a>Screenshots</h2>
+
+<p>
+    <a class="screenshot" href="screenshots/mainmenu.png"><img src="screenshots/thumb_mainmenu.png" width="320" height="200" alt="Main menu" title="Main menu" /></a>
+    <a class="screenshot" href="screenshots/single_player.png"><img src="screenshots/thumb_single_player.png" width="320" height="200" alt="Single player game" title="Single player game" /></a>
+    <a class="screenshot" href="screenshots/two_player.png"><img src="screenshots/thumb_two_player.png" width="320" height="200" alt="Two player game" title="Two player game" /></a>
+    <a class="screenshot" href="screenshots/vs.png"><img src="screenshots/thumb_vs.png" width="320" height="200" alt="VS Screen" title="VS Screen" /></a>
+    <a class="screenshot" href="screenshots/victory.png"><img src="screenshots/thumb_victory.png" width="320" height="200" alt="Victory!" title="Victory!" /></a>
+    <a class="screenshot" href="screenshots/power_plant.png"><img src="screenshots/thumb_power_plant.png" width="320" height="200" alt="Power plant arena" title="Power plant arena" /></a>
+    <a class="screenshot" href="screenshots/newsroom.png"><img src="screenshots/thumb_newsroom.png" width="320" height="200" alt="Newsroom" title="Newsroom scene with animeisque commentator" /></a>
+    <a class="screenshot" href="screenshots/end.png"><img src="screenshots/thumb_end.png" width="320" height="200" alt="Ending" title="Single player ending" /></a>
+</p>
+
+<h2><a name="youtube" class="anchor" href="#youtube"><span class="octicon octicon-link"></span></a>Youtube</h2>
+
+<p>
+    <iframe id="ytplayer" type="text/html" width="650" height="395" src="http://www.youtube.com/embed/vDCPpW1bjLU" frameborder="0" ></iframe>
+    <iframe id="ytplayer" type="text/html" width="650" height="395" src="http://www.youtube.com/embed/Ip-bg-x4f74" frameborder="0" ></iframe>
+</p>
+
+        </section>
+    </div>
+    <div id="footer_wrap" class="outer">
+        <footer class="inner">
+            <p class="copyright">OpenOMF maintained by <a href="https://github.com/omf2097">OpenOMF Project</a> (Published with <a href="http://pages.github.com">GitHub Pages</a>)</p>
+        </footer>
+    </div>
+  </body>
+</html>
