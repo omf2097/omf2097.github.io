@@ -1,0 +1,7 @@
+---
+layout: none
+permalink: .well_known/org.flathub.VerifiedApps.txt
+---
+
+# org.openomf.OpenOMF
+e5cb7112-89f6-44cd-a961-dac0f812c554
