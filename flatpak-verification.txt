@@ -1,6 +1,6 @@
 ---
 layout: none
-permalink: .well_known/org.flathub.VerifiedApps.txt
+permalink: .well-known/org.flathub.VerifiedApps.txt
 ---
 
 # org.openomf.OpenOMF
